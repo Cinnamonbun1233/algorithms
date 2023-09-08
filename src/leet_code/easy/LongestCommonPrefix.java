@@ -3,10 +3,10 @@ package leet_code.easy;
 import java.util.Arrays;
 
 /**
- * leetcode.com/problems/longest-common-prefix/
+ * leetcode.com/problems/longest-common-prefix
  */
 
-class Main {
+public class LongestCommonPrefix {
 
     public static void main(String[] args) {
 
@@ -14,9 +14,6 @@ class Main {
         String result = LongestCommonPrefix.longestCommonPrefix(array);
         System.out.println(result);
     }
-}
-
-public class LongestCommonPrefix {
 
     public static String longestCommonPrefix(String[] s) {
 
